@@ -1,0 +1,52 @@
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.feedback-container {
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 18px;
+  border-radius: 10px;
+  border-width: 0px;
+  max-width: 300px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback-container {
+    max-width: 440px;
+  }
+}
+
+.emoji {
+  height: 40px;
+  width: 36px;
+}
+
+.heading {
+  color: #0f172a;
+  font-weight: 400;
+}
+
+.content {
+  color: #1e293b;
+  font-weight: 300;
+}
+
+.emojis-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  width: 80%;
+}
